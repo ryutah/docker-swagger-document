@@ -8,4 +8,4 @@ $ docker run -v {OPEN_API_DIRECTRY}:/work ryutah/swgger-document {OPEN_API_FILE_
 ```
 
 ## Example
-http://ryutah.github.io/docker-swagger-document
+https://ryutah.github.io/docker-swagger-document/

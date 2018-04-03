@@ -7,8 +7,18 @@ This tool is based on [this article](http://iktakahiro.hatenablog.com/entry/2016
 
 ## Usage
 ```console
-$ docker run -v {OPEN_API_DIRECTRY}:/work ryutah/swgger-document {OPEN_API_FILE_NAME} {OUTPUT_FILE_NAME}
-# ex) docker run -v $(pwd):/work ryutah/swagger-document /work/openapi.yaml /work/openapi.html
+$ docker run \
+  -v {SWAGGER_FILE_DIRECTRY}:{MOUNT_PATH} \
+  ryutah/swgger-document {SWAGGER_FILE_PATH} {OUTPUT_FILE_PATH}
+```
+
+### example
+Generate document named `sample.html` in current directory from swagger definition file named `swagger.yaml` in same directory.
+
+```
+$ docker run \
+  -v $(pwd):/work \
+  ryutah/swgger-document /work/sample.yaml /work/sample.html
 ```
 
 ## Example

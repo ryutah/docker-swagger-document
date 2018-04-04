@@ -1,6 +1,8 @@
 # Swagger API HTML Generator
 Generate API document from swagger file.
 
+![example](example.png)
+
 ⚠Does not support OpenAPI 3.0 format⚠
 
 This tool is based on [this article](http://iktakahiro.hatenablog.com/entry/2016/11/23/100000)

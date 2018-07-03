@@ -11,7 +11,7 @@ This tool is based on [this article](http://iktakahiro.hatenablog.com/entry/2016
 ```console
 $ docker run \
   -v {SWAGGER_FILE_DIRECTRY}:{MOUNT_PATH} \
-  ryutah/swgger-document {SWAGGER_FILE_PATH} {OUTPUT_FILE_PATH}
+  ryutah/swagger-document {SWAGGER_FILE_PATH} {OUTPUT_FILE_PATH}
 ```
 
 ### example
@@ -20,7 +20,7 @@ Generate document named `sample.html` in current directory from swagger definiti
 ```
 $ docker run \
   -v $(pwd):/work \
-  ryutah/swgger-document /work/sample.yaml /work/sample.html
+  ryutah/swagger-document /work/sample.yaml /work/sample.html
 ```
 
 ## Example

@@ -1,7 +1,7 @@
 # Swagger API HTML Generator
 Generate API document from swagger file.
 
-![example](example.png)
+![example](https://user-images.githubusercontent.com/6662577/42384874-2a4b3b9a-8176-11e8-8334-096a23c86c8a.png)
 
 ⚠Does not support OpenAPI 3.0 format⚠
 
